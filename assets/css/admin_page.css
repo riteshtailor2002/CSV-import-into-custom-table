@@ -1,0 +1,155 @@
+table#ajax_table {
+    border:1px solid black;
+    background-color: #FFFFFF;
+}
+table#ajax_table td {
+    padding:15px;
+    text-align: center;
+}
+table#ajax_table td.auto_inc {
+    color:#F00;
+}
+#table_preview{
+    display: block;
+    overflow: inherit;
+    clear:both;
+}
+
+.auto_inc_warn {
+    color:#F00;
+}
+
+
+#tabs ul {
+    list-style:disc inside;
+}
+
+
+.info_message, .info_message_dismiss, .success_message, .warning_message, .error_message {
+    border: 1px solid #000;
+    margin: 10px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.info_message, .info_message_dismiss {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('../images/info.png');
+}
+.success_message {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('../images/success.png');
+}
+.warning_message {
+    color: #9F6000;
+    background-color: #FEEFB3;
+    background-image: url('../images/warning.png');
+}
+.error_message {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('../images/error.png');
+}
+
+#return_csv_col_count {
+    font-weight:bold;
+}
+
+#export_to_csv_button, #create_db_button, #delete_db_button {
+    margin-left:40px;
+}
+/*added by pc*/
+.wrapper h2 {
+    padding: 15px 8px;
+    background: #007cba;
+    font-size: 24px;
+    color: #fff;
+}
+.wrapper td {
+    width: 1%;
+    border: 1px solid #eeecec;
+    max-width: 10%;
+}
+.controls input[type="checkbox"] {
+    margin: 0 4px 0 10px;
+}
+.joblistingtable input[type=text]{
+    width: 60%;
+}
+.controls {
+    margin: 0 0 10px;
+}
+thead tr {
+    background: #3b3e4a;
+    color: #fff;
+    font-size: 14px;
+}
+ul.page-numbers li {
+    display: inline-block;
+    padding: 0 7px;
+    color: #fff;
+    vertical-align: middle;
+}
+.pagination span.page-numbers.current {
+    background: #1A75BB;
+    color: #fff;
+    padding: 7px 14px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+.wp-person a:focus .gravatar, a:focus, a:focus .media-icon img {
+    color: #124964;
+    box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30,140,190,.8);
+    outline: 1px solid transparent;
+}
+.pagination a {
+    background: #202736;
+    color: #fff;
+    padding: 7px 14px;
+    font-size: 18px;
+    border-radius: 4px;
+    /* margin: 0 5px; */
+}
+.pull-right {
+    float: right!important;
+}
+.btn-primary, .joblistingtable input[type=button], #tl_csv_imp_to_db_form .form-table input[type=button] {
+       color: #fff;
+    background-color: #1A75BB;
+    border-color: #1A75BB;
+    border: 0;
+    padding: 6px 8px;
+    font-size: 13px;
+    font-family: 'GothamRounded-Medium';
+    border-radius: 3px;
+    display: inline-block;;
+}
+.importingform {
+    border: 2px solid #007cba;
+    padding: 10px;
+    margin-top: 10px;
+}
+.form-table td{vertical-align: top;;}
+.table-toolbar.text-right {
+    text-align: right;
+    padding: 20px 60px;
+}
+.wp-core-ui .button-primary{background: #007cba;border-color: #007cba;}
+.btn-success { color: #fff; background-color: #5cb85c;  border-color: #4cae4c;padding: 5px 8px;font-size: 13px;font-family: 'GothamRounded-Medium';}
+.success-import{background-color: wheat;color:#4F8A10;padding:10px;}
+.error-import{background-color: wheat;color:#F00;padding:10px;}
+.error-success{height:15px;width:100%;}
+input[type=checkbox], input[type=radio]{width:16px;height:16px;}
+.panel-title span{margin-top: 5px;font-size:10px;font-style:italic;color:#333;display:inline-block;font-weight:normal;float:right;}
+.areatoupload{padding:8px;}
+.panel-default{min-height: 160px;}
+.success-import.inner {
+    background-color: wheat;
+    color: #4F8A10;
+    padding: 6px 10px;    
+    float: left;
+    font-size: 15px;
+}
